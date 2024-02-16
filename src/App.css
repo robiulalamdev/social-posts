@@ -1,0 +1,80 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+input:focus-visible,
+select:focus-visible {
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: unset !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.footer button {
+    border-radius: 9999px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.16) 0%, rgba(0, 0, 0, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%), #6E51E0;
+    padding: 12px 32px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.btnGradientClr {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.16) 0%, rgba(0, 0, 0, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%), #6E51E0;
+}
+
+/* sweet alert */
+
+.swal2-popup {
+    width: 400px !important;
+    border-radius: 50px !important;
+}
+
+.swal2-title {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #423186 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.circle-background,
+.circle-progress {
+    fill: none;
+}
+
+.circle-text {
+    fill: #020617;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #a999e9 #e9e4fb;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #e9e4fb;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #a999e9;
+    border-radius: 10px;
+    border: 3px solid #a999e9;
+}

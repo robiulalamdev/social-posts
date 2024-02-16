@@ -1,0 +1,97 @@
+.auth_layout {
+    background-image: url('../assets/BG.png');
+    padding: 104px 0 128px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.auth_home_layout {
+    background-image: url('../assets/BG.png');
+    padding: 104px 0 96px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hour_spent {
+    background: var(--palette-black-black-alpha-50, rgba(0, 0, 0, 0.50));
+    backdrop-filter: blur(12px);
+}
+
+.hour_spent label,
+label {
+    display: block;
+    color: var(--Text-Primary, var(--colors-slate-950, #020617));
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.hour_spent label span,
+label span {
+    color: var(--slate-500, var(--slate-500, #64748B));
+}
+
+.auth_layout input,
+.year,
+.hour_spent input,
+.hour_spent select {
+    border-radius: var(--border-radius-full, 9999px);
+    border: 1px solid var(--slate-200, #E2E8F0);
+    background: var(--slate-50, #F8FAFC);
+    width: 100%;
+    padding: 12px 16px;
+}
+
+input[type="search"] {
+    background-image: url('../assets/search.png');
+    background-repeat: no-repeat;
+    background-position: center left 3%;
+    padding-left: 40px !important;
+}
+
+.verification {
+    background-image: url('../assets/verification-successfull.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+}
+
+.icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--Primary-Gradient, linear-gradient(270deg, rgba(255, 255, 255, 0.16) 0%, rgba(0, 0, 0, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%), #6E51E0) !important;
+}
+
+.email_verify input {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+@media screen and (max-width:767px) {
+    .auth_layout {
+        padding: 68px 20px 28px;
+    }
+
+    .auth_home_layout {
+        padding: 60px 20px 28px;
+    }
+
+    .email_verify input {
+        width: 36px;
+        height: 36px;
+    }
+}
